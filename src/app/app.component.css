@@ -1,0 +1,38 @@
+li {
+    list-style: none;
+}
+
+.container {
+    width: 300px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.todo-list,
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.todoName {
+    margin: auto 0;
+}
+
+.todo-list button {
+    margin-left: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.isComplete {
+    text-decoration: line-through;
+    display: inline;
+}
